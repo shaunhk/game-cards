@@ -1,0 +1,28 @@
+body {
+  font-family: Palatino;
+}
+
+#character-list {
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+}
+
+.pocketcard {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+}
+
+.game-item {
+  color: blue;
+  background-image: url(https://i.pinimg.com/originals/67/a8/5e/67a85ee711cd483ebf3fa0166e495d12.jpg);
+  background-size: 100% auto;
+  background-position: center;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #20437c;
+  border-radius: 0;
+  /* background: #ddeaff; */
+  width: 200px;
+}
