@@ -2,27 +2,135 @@ body {
   font-family: Palatino;
 }
 
+button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: fantasy;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2 {
+  background: white;
+  background-size: cover;
+}
+
+h3 {
+  background: white;
+  background-size: cover;
+}
+
+h4 {
+  background: white;
+  background-size: cover;
+}
+
+img {
+  height: auto;
+  margin: auto;
+  width: auto;
+}
+
 #character-list {
   display: flex;
   flex-flow: row wrap;
   list-style-type: none;
 }
 
+#new-character {
+  text-align: center;
+}
+
+.body {
+  background-size: cover;
+  background-image: url(http://2.media.collegehumor.cvcdn.com/45/38/1d5e47a078501f0d83e6d04b6bbd1260-scorpion-and-sub-zero-choose-their-gimmicks.jpg);
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+
 .pocketcard {
-  width: 200px;
   height: 200px;
+  width: 200px;
   border-radius: 25%;
 }
 
-.game-item {
+.for-honor {
   color: blue;
+  background-image: url(https://ubistatic2-a.akamaihd.net/ncsa/forhonor/website/og/ForHonor_og_1200x630.jpg);
+  background-size: 100% auto;
+  background-position: center;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 5px solid blue;
+  border-radius: 0;
+  text-align: center;
+  width: 200px;
+}
+
+.game-item {
+  color: orange;
   background-image: url(https://i.pinimg.com/originals/67/a8/5e/67a85ee711cd483ebf3fa0166e495d12.jpg);
   background-size: 100% auto;
   background-position: center;
   margin: 0.5rem 0.5rem;
   padding: 0.5rem 0.8rem;
-  border: 1px solid #20437c;
+  border: 5px solid orange;
   border-radius: 0;
-  /* background: #ddeaff; */
+  text-align: center;
+  width: 200px;
+}
+
+.killer-instinct {
+  color: purple;
+  background-image: url(https://ih1.redbubble.net/image.261501613.2984/flat,550x550,075,f.u1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 5px solid purple;
+  border-radius: 0;
+  text-align: center;
+  width: 200px;
+}
+
+.mortal-kombat {
+  color: red;
+  background-image: url(https://ih1.redbubble.net/image.198709408.3499/pp,550x550.u1.jpg);
+  background-size: 100% auto;
+  background-position: center;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 5px solid red;
+  border-radius: 0;
+  text-align: center;
+  width: 200px;
+}
+
+.prompt {
+  color: white;
+}
+
+.ryu {
+  background-image: url(http://i1.wp.com/shoryuken.com/wp-content/uploads/2016/03/Ryu-Ken-Meaty.png?fit=750%2C220&resize=750%2C400);
+}
+
+.tekken {
+  color: green;
+  background-image: url(https://i.pinimg.com/originals/df/61/94/df61947c017b305dee65413f14a17421.png);
+  background-size: 100% auto;
+  background-position: center;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 5px solid green;
+  border-radius: 0;
+  text-align: center;
   width: 200px;
 }
