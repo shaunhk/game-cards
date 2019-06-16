@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const form = document.querySelector('#new-character');
   form.addEventListener('submit', handleFormSubmits);
-  form.addEventListener('click', switchPic);
+  // form.addEventListener('click', switchPic);
 
   const deleteAll = document.querySelector('#delete');
   deleteAll.addEventListener('click', handleDelete);
@@ -64,18 +64,19 @@ const createGameCardItem = function(form){
   result.appendChild(losses);
 
   const ratio = document.createElement('h4');
-  ratio.textContent = `W/L Ratio: ${event.target.wins.value / event.target.losses.value}`;
+  const round = Math.round((event.target.wins.value / event.target.losses.value) * 100) / 100
+  ratio.textContent = `W/L Ratio: ${round}`;
   result.appendChild(ratio);
 
   return result
 
 };
 
-const switchPic = function(event){
-  result.getElementbyclass('body')
-  switchPic.classList.add('ryu')
-  result.appendChild(switchPic)
-}
+// const switchPic = function(event){
+//   document.getElementbyclass('body')
+//   switchPic.classList.add('ryu')
+//   result.appendChild(switchPic)
+// }
 
 const handleDelete = function(event){
   const characterList = document.querySelector('#character-list');
