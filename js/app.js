@@ -24,6 +24,12 @@ const createGameCardItem = function(form){
   const result = document.createElement('li');
   result.classList.add('game-item')
 
+  const radio = document.createElement('h2')
+  const checked = document.getElementById('radio').value
+
+  radio.textContent = checked
+  result.appendChild(radio);
+
   const name = document.createElement('h3');
   name.textContent = `${event.target.name.value}`;
   result.appendChild(name);

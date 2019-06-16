@@ -2,15 +2,9 @@ body {
   font-family: Palatino;
 }
 
-button {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
 h1 {
   text-align: center;
-  color: white;
+  color: #bb0a1e;
   font-family: fantasy;
   font-style: oblique;
   font-weight: bold;
@@ -44,28 +38,33 @@ img {
   list-style-type: none;
 }
 
+#delete {
+  text-align: center;
+}
+
 #new-character {
   text-align: center;
 }
 
 .body {
-  background-size: cover;
-  background-image: url(http://2.media.collegehumor.cvcdn.com/45/38/1d5e47a078501f0d83e6d04b6bbd1260-scorpion-and-sub-zero-choose-their-gimmicks.jpg);
+  background-size: stretch;
+  background-image: url(https://cdn-prod.mortalkombat.com/features/scorpion-bg.jpg);
   margin: auto;
   width: auto;
   height: auto;
+  text-align: center;
 }
 
 .pocketcard {
   height: 200px;
   width: 200px;
-  border-radius: 25%;
+  border-radius: 0;
 }
 
 .for-honor {
   color: blue;
   background-image: url(https://ubistatic2-a.akamaihd.net/ncsa/forhonor/website/og/ForHonor_og_1200x630.jpg);
-  background-size: 100% auto;
+  background-size: 100%;
   background-position: center;
   margin: 0.5rem 0.5rem;
   padding: 0.5rem 0.8rem;
@@ -73,6 +72,11 @@ img {
   border-radius: 0;
   text-align: center;
   width: 200px;
+}
+
+.form-input {
+  color: black;
+  font-size: 24px;
 }
 
 .game-item {
@@ -115,7 +119,8 @@ img {
 }
 
 .prompt {
-  color: white;
+  color: #dc143c;
+  font-size: 18px;
 }
 
 .ryu {

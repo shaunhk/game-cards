@@ -14,6 +14,12 @@
     <form id="new-character">
       <div id="form-wrap">
         <div class="form-input">
+          <label for="player" class="prompt">Select player:</label><br>
+          <input type="radio" name="player" value="Player 1" id="radio">Player 1
+          <input type="radio" name="player" value="Player 2" id="radio">Player 2<br>
+        </div>
+
+        <div class="form-input">
           <label for="name" class="prompt">Character Name:</label>
           <input type="text" id="name" required/>
         </div>
@@ -49,8 +55,9 @@
       <input type="submit" value="Add character"/>
     </form>
 
+    <div class="button"><button id="delete">Restart</button></div>
+
     <h1>FIGHTERS</h1>
-    <button id="delete">Restart</button>
 
       <div id="character-list"></div>
 
