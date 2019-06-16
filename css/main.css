@@ -30,6 +30,7 @@ img {
   height: auto;
   margin: auto;
   width: auto;
+  background-repeat: no-repeat;
 }
 
 #character-list {
@@ -47,7 +48,7 @@ img {
 }
 
 .body {
-  background-size: stretch;
+  background-size: fill;
   background-image: url(https://cdn-prod.mortalkombat.com/features/scorpion-bg.jpg);
   margin: auto;
   width: auto;
